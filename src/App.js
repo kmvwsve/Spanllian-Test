@@ -1,11 +1,11 @@
-const App = () => {
-  return (
-    <div className="container">
-      <p>
-        Write your code here.
-      </p>
-    </div>
-  );
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
+import Persons from './components/Persons';
+
+function App(){
+ return <Persons />
+ 
 }
 
 export default App;
+
